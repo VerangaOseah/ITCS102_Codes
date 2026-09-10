@@ -1,5 +1,6 @@
 #Code challenge 3
 #Global Freight Calculator
+#Oseah veranga
 
 name = input("Sender Name: ")
 item = input("Type of item: ")
