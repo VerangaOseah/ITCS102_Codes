@@ -4,7 +4,7 @@ name = input("Input NAME: ")
 age = int(input("Input AGE: "))
 print("Hi, ",name,"That age is considered as ")
 if age >= 1 and age <= 5:
-	print("ifant")
+	print("infant")
 
 elif age >= 6 and age <= 12:
 	print("kid")
