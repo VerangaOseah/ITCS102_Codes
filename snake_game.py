@@ -11,20 +11,20 @@ import pygame
 # ============================================================
 GAME_TITLE = "Snake"
 CELL_SIZE = 25           # size of one square, in pixels
-GRID_WIDTH = 24          # how many squares across
-GRID_HEIGHT = 18         # how many squares down
-SPEED = 8                # moves per second: higher = faster snake
-START_LENGTH = 3         # how long the snake is at the start
-POINTS_PER_FOOD = 1      # score for each food eaten
-GROW_PER_FOOD = 1        # how many squares the snake grows per food
+GRID_WIDTH = 34          # how many squares across
+GRID_HEIGHT = 26        # how many squares down
+SPEED = 6                # moves per second: higher = faster snake
+START_LENGTH = 2         # how long the snake is at the start
+POINTS_PER_FOOD = 2      # score for each food eaten
+GROW_PER_FOOD = 2        # how many squares the snake grows per food
 WALLS_KILL = True        # False = snake goes through walls to the other side
 
 # Colors are (red, green, blue), each from 0 to 255
 BACKGROUND_COLOR = (20, 24, 38)
 GRID_COLOR = (32, 38, 56)
-SNAKE_COLOR = (90, 200, 120)
-HEAD_COLOR = (50, 150, 80)
-FOOD_COLOR = (235, 80, 80)
+SNAKE_COLOR = (240, 100, 50)
+HEAD_COLOR = (240, 50, 50)
+FOOD_COLOR = (90, 200, 120)
 TEXT_COLOR = (240, 240, 240)
 
 # ============================================================
